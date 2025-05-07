@@ -13,7 +13,7 @@
 
 ## 🌐 Live Preview
 
-🚀 Check it out live here: [https://portfolio-2-0.vercel.app](https://portfolio-2-0.vercel.app)
+🚀 Check it out live here: [https://portfolio-2-0.vercel.app](https://portfolio-2-0-q9fg3azgg-janis-projects-6734836e.vercel.app/)
 
 ---
 
