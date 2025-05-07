@@ -120,7 +120,8 @@ export default function Contact() {
             </span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? Feel free to reach out to me using the contact form below.
+            Have a project in mind or want to collaborate? Feel free to reach
+            out to me using the contact form below.
           </p>
         </motion.div>
 
@@ -134,8 +135,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-400">contact@shivjani.com</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">Send me an email anytime!</p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    shivjani2005@gmail.com
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
+                    Send me an email anytime!
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors">
@@ -144,8 +149,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">Mon-Fri from 9am to 5pm</p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    +1 (555) 123-4567
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
+                    Mon-Fri from 9am to 5pm
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700 hover:border-emerald-300 dark:hover:border-emerald-700 transition-colors">
@@ -154,16 +163,20 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
-                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">Available for remote work worldwide</p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Ahmedabad , Gujarat
+                  </p>
+                  <p className="text-sm text-gray-500 dark:text-gray-500 mt-1">
+                    Available for remote work worldwide
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold mb-6">Follow Me</h3>
-            <div className="flex gap-4">
+            <h3 className="text-2xl font-bold mb-6 text-center">Follow Me</h3>
+            <div className="flex gap-4 justify-center">
               <motion.a
                 href="https://github.com"
                 target="_blank"
@@ -175,7 +188,12 @@ export default function Contact() {
                 whileHover="hover"
                 whileTap={{ scale: 0.9 }}
               >
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="24" height="24" />
+                <img
+                  src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                  alt="GitHub"
+                  width="24"
+                  height="24"
+                />
               </motion.a>
               <motion.a
                 href="https://linkedin.com/in/shivjani"
@@ -188,8 +206,20 @@ export default function Contact() {
                 whileHover="hover"
                 whileTap={{ scale: 0.9 }}
               >
-                <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" width="24" height="24" />
+                <img
+                  src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
+                  alt="LinkedIn"
+                  width="24"
+                  height="24"
+                />
               </motion.a>
+              </div>
+
+              <div className="flex-1 flex justify-center">
+              <div className="flex gap-4 ">
+                <img src ="https://media.giphy.com/media/92KgrxwgebKs7eFkqr/giphy.gif?cid=ecf05e47sqp94kdfzo3vjrw6q9tf1thsmlv9axus2uyv8hgn&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="gif"/>
+                   
+            </div>
             </div>
           </div>
         </div>

@@ -131,7 +131,7 @@ export default function About() {
                   opacity: 0.3,
                 }}
               />
-              <span className="relative z-10">5+ Years Experience</span>
+              <span className="relative z-10">2+ Years Experience</span>
             </div>
           </motion.div>
 
@@ -187,7 +187,7 @@ export default function About() {
                         </div>
                         <div>
                           <h4 className="font-medium">Location</h4>
-                          <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                          <p className="text-gray-600 dark:text-gray-400">Ahmedabad , Gujarat</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-3">

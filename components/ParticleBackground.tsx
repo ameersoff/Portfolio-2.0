@@ -39,8 +39,10 @@ export default function ParticleBackground() {
         this.x = Math.random() * canvas.width
         this.y = Math.random() * canvas.height
         this.size = Math.random() * 3 + 1
-        this.speedX = Math.random() * 1 - 0.5
-        this.speedY = Math.random() * 1 - 0.5
+
+
+        this.speedX = Math.random() * 2 - 1
+        this.speedY = Math.random() * 2 - 1
         this.color =
           theme === "dark"
             ? `rgba(${Math.floor(Math.random() * 50 + 100)}, ${Math.floor(Math.random() * 50 + 200)}, ${Math.floor(Math.random() * 50 + 150)}, ${Math.random() * 0.3 + 0.1})`
@@ -70,7 +72,8 @@ export default function ParticleBackground() {
     // Initialize particles
     const initParticles = () => {
       particles = []
-      const particleCount = Math.min(Math.floor((window.innerWidth * window.innerHeight) / 10000), 100)
+
+      const particleCount = Math.min(Math.floor((window.innerWidth * window.innerHeight) / 5000), 200)
 
       for (let i = 0; i < particleCount; i++) {
         particles.push(new Particle())
