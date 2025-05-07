@@ -69,3 +69,10 @@ npm run dev
 yarn dev
 
 # 🚀 Open your browser at http://localhost:3000
+
+
+
+```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=90&width=1000&section=footer"/>
+</p>
