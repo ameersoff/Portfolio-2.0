@@ -14,7 +14,7 @@ export default function About() {
 
   // For image gallery
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const images = ["/profile.jpg", "/placeholder.svg?height=600&width=600", "/placeholder.svg?height=600&width=600"]
+  const images = ["https://avatars.githubusercontent.com/u/153932136?v=4"]
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % images.length)
@@ -286,7 +286,7 @@ export default function About() {
                           <h4 className="font-bold">B.S. in Computer Science</h4>
                         </div>
                         <p className="text-emerald-600 dark:text-emerald-400 text-sm mb-1">2012 - 2016</p>
-                        <p className="text-gray-600 dark:text-gray-400 mb-2">Stanford University</p>
+                        <p className="text-gray-600 dark:text-gray-400 mb-2">Gujarat University</p>
                         <p className="text-gray-500 dark:text-gray-500 text-sm">
                           Graduated with honors. Specialized in software engineering and artificial intelligence.
                         </p>
